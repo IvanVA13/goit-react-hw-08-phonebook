@@ -1,0 +1,35 @@
+.contacts-list {
+  display: block;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.contacts-list-item {
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+// .contact-container {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+
+// .btn {
+//   display: block;
+
+//   font-weight: 500;
+
+//   background-color: #ffffff;
+//   border: 2px solid #f8a85e;
+//   border-radius: 4px;
+//   cursor: pointer;
+// }
